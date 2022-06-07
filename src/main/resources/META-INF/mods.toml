@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="template"
@@ -8,7 +8,10 @@ version="1.0.0"
 displayName="Template"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="gunter, MCreator"
+authors="MCreator"
+description='''
+MOD DESCRIPTION
+'''
 
 [[dependencies.template]]
     modId="minecraft"
