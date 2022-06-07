@@ -1,0 +1,32 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "template",
+    "modName": "Template",
+    "version": "1.0.0",
+    "description": "MOD DESCRIPTION",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.template",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
