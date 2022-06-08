@@ -7,14 +7,15 @@ These steps are needed to configure the automatic release creation when a tag is
 2. Click on _Developer settings_ in the menu.
 3. Click on _Personal access tokens_ in the menu.
 4. Click _Generate new token_ and choose _repo_ access and any other settings you want.
-5. Copy the token.
-6. Navigate back to this repository.
-7. Click _Settings_.
-8. Click _Secrets_ then _Actions_ in the menu.
-9. Click _New repository secret_.
-10. Choose `CUSTOM_GITHUB_TOKEN` as the name.
-11. Paste your token as the value.
-12. Click _Add secret_.
+5. Click _Generate token_.
+6. Copy the token.
+7. Navigate back to this repository.
+8. Click _Settings_.
+9. Click _Secrets_ then _Actions_ in the menu.
+10. Click _New repository secret_.
+11. Choose `CUSTOM_GITHUB_TOKEN` as the name.
+12. Paste your token as the value.
+13. Click _Add secret_.
 
 ## MCreator Setup
 1. Launch MCreator.
@@ -67,3 +68,5 @@ This template uses a GitHub Action to create a release any time a tag is created
 have an option to create a tag, so you will need to do that from the command-line.
 1. Create a tag, set the version as appropriate: `git tag 1.0.0`
 2. Push the tag to GitHub: `git push --tags`
+
+In GitHub, you should see the Action triggered. Once it is complete, a new release will have been created.
